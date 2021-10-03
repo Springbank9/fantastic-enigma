@@ -1,3 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 3000px;
+  padding-top: 50px;
+}
+
+.banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  background: tomato;
+  text-align: center;
+  transition: transform 300ms;
+}
+.banner.hide {
+  transform: translateY(-50px);
+}
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: absolute;
