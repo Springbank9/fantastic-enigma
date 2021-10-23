@@ -68,6 +68,12 @@ body {
   background-position: center center;
 }
 
+bg-image2 {
+  background-image: url('/images/DSC_0727.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
 .button {
     text-decoration: none;
     background-color: white;
