@@ -71,7 +71,7 @@ body {
 bg-image2 {
   background-image: url('/images/DSC_0727.jpg');
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
 .button {

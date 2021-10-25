@@ -1,0 +1,57 @@
+
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('/images/DSC_1316.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.button {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.bg-image2 {
+    background-image: url('/images/DSC_1288.jpg');
+  background-size: cover;
+  background-position: right right;
+}
+
+.leftside {
+    background: url(/images/IMG_1282.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100Vh;
+  }
+  .leftside .text {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-size: 2em;
+  }
+  .leftside .text a {
+    color: #fff;
+    display: block;
+  }
+  .rightside {
+    background: url(/images/IMG_3233.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100Vh;
+  }
+  .row-full > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  @media (max-width: 767px) {
+    .leftside .text {
+      top: 60%;
+      left: 5%;
+      font-size: 16px;
+    }
+  }
