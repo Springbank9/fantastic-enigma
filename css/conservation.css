@@ -1,13 +1,27 @@
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
 .login,
 .image {
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .bg-image {
   background-image: url('/images/DSC_1316.jpg');
   background-size: cover;
   background-position: center center;
+  margin: 0;
+  padding: 0;
 }
 
 .button {
