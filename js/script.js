@@ -11,3 +11,14 @@ $(window).scroll(function(){
     lastScrollTop = st;
   }, 100);
 });
+
+$("carousel-item > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('carousel-item > div:first')
+  .fadeOut(1000)
+  .next()
+  .fadeIn(1000)
+  .end()
+  .appendTo('carousel-item');
+}, 3000);
